@@ -1,8 +1,8 @@
-/* [class*=col]{
+[class*=col]{
     min-height: 80px;
     background-color: blueviolet;
     border: 3px solid black;
-}  */
+} 
 
 /* header */
 #background-black {
@@ -19,9 +19,8 @@
     background-image: url(../img/jumbo-bg.png);
 }
 
-#jumbo-games {
-    height: 80px;
-    margin: 0 auto;
+.jumbo-games {
+    height: 100px;
     border-radius: 15px;
     margin: 10px;
     padding: 3px;
@@ -31,7 +30,7 @@
 }
 
 .bg-banner {
-    height: 500px;
+    height: 700px;
     background-size: cover;
     background-position:center;
     display: flex;
@@ -63,9 +62,16 @@
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
 }
 
+.new-games {
+    height: 120px;
+    border-radius: 15px;
+    padding: 3px;
+}
+
 #bg-gray {
     background-color: #373e4a;
     color: white;
+    padding: 20px 0;
 }
 
 .meta-banner {
