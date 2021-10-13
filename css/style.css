@@ -1,5 +1,68 @@
 [class*=col]{
-    min-height: 100px;
+    min-height: 80px;
     background-color: blueviolet;
     border: 3px solid black;
 }  
+
+/* header */
+#background-black {
+    background-color: black;
+}
+
+/* jumbotron */
+#jumbo {
+    margin-top: 160px;
+    background-image: url(../img/jumbo-bg.png);
+}
+
+.bg-banner {
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+/* mid zone */
+#mid-jumbo {
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+}
+
+#bg-gray {
+    background-color: #373e4a;
+    color: white;
+}
+
+.meta-banner {
+    height: 400px;
+}
+
+.bg-lightgray {
+    background-color: lightslategray;
+}
+
+.bg-blu {
+    background-color: rgb(25, 25, 92);
+}
+
+.meta-banner .container {
+    height: 100%;
+}
+
+.meta-banner .container .row {
+    height: 100%;
+}
+
+.meta-banner .container .row .col {
+    height: 100%;
+}
+
+.img-ghost {
+    display: none;
+}
+
+@media all and (min-width:768px){
+    .img-ghost{
+        display: block;
+    }
+}
