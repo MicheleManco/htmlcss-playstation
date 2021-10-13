@@ -1,8 +1,8 @@
-[class*=col]{
+/* [class*=col]{
     min-height: 80px;
     background-color: blueviolet;
     border: 3px solid black;
-} 
+}  */
 
 [class*=col] img{
     max-width: 100%;
@@ -29,8 +29,13 @@
     margin: 10px;
     padding: 3px;
 }
+
 .selezionato {
     border: 2px solid rgb(64, 128, 224);
+}
+
+.games_show {
+    margin-bottom: 80px;
 }
 
 .bg-banner {
@@ -121,4 +126,19 @@
 
 .text_blu {
     color: blue;
+}
+.selezionato-info {
+    border-bottom: 2px solid rgb(64, 128, 224);
+}
+
+.section_info {
+    margin-bottom: 40px;
+}
+
+.show_ps4_section {
+    margin: 60px 0;
+}
+
+.show_ps4 {
+    margin-top: 40px;
 }
