@@ -2,11 +2,15 @@
     min-height: 80px;
     background-color: blueviolet;
     border: 3px solid black;
-}  
+} 
 
 /* header */
 #background-black {
     background-color: black;
+}
+#background-black img {
+    width: 120px;
+    margin: 15px;
 }
 
 /* jumbotron */
@@ -16,7 +20,9 @@
 }
 
 .bg-banner {
-    height: 600px;
+    height: 500px;
+    background-size: cover;
+    background-position:center;
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
@@ -34,7 +40,7 @@
 }
 
 .meta-banner {
-    height: 400px;
+    height: 350px;
 }
 
 .bg-lightgray {
