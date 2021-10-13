@@ -6,6 +6,7 @@
 
 [class*=col] img{
     max-width: 100%;
+    max-height: 100%;
 }
 
 /* header */
@@ -61,8 +62,17 @@
     border-radius: 20px;
     background-color: tomato;
     border: 0;
-    padding:8px 15px 11px;
     margin-top: 10px;
+}
+
+.btn_grayblue {
+    color: blue;
+    background-color: rgb(143, 166, 180);
+}
+
+.btn_white {
+    background-color: white;
+    color: black;
 }
 
 .btn-primary {
@@ -100,9 +110,10 @@
 
 .bg-blu {
     background-color: rgb(25, 25, 92);
+    color: white;
 }
 
-.meta-banner .container {
+/* .meta-banner .container {
     height: 100%;
 }
 
@@ -110,8 +121,12 @@
     height: 100%;
 }
 
-.meta-banner .container .row .col {
+.meta-banner .container .row .col{
     height: 100%;
+} */
+.meta-banner .container .row .col .img-ghost-bg{
+    height:350px;
+    max-width: none;
 }
 
 .img-ghost {
