@@ -19,6 +19,17 @@
     background-image: url(../img/jumbo-bg.png);
 }
 
+#jumbo-games {
+    height: 80px;
+    margin: 0 auto;
+    border-radius: 15px;
+    margin: 10px;
+    padding: 3px;
+}
+.selezionato {
+    border: 2px solid rgb(64, 128, 224);
+}
+
 .bg-banner {
     height: 500px;
     background-size: cover;
