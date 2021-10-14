@@ -1,8 +1,8 @@
-[class*=col]{
+/* [class*=col]{
     min-height: 80px;
     background-color: blueviolet;
     border: 3px solid black;
-} 
+}  */
 
 [class*=col] img{
     max-width: 100%;
@@ -195,4 +195,17 @@ footer {
 
 #sie {
     height: 50px;
+    margin: 10px;
+}
+
+#ms_links {
+    margin: 15px;
+}
+
+.nav-link {
+    color: white;
+}
+
+.link_white {
+    color: white;
 }
