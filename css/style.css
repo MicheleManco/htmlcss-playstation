@@ -17,21 +17,38 @@
     width: 120px;
     margin: 15px;
 }
- @media all and (min-width: 992px){
-    .navbar-expand-lg .navbar_dx {
-        align-items: center;
-    }
- }
 
 .btn_black_white{
     background-color: black;
     color: white;
     padding-bottom: 20px;
-    margin: 0px 15px;
+    margin-bottom: 3px;
 }
 
 .bg_navbar_white {
     background-color: white;
+}
+
+.dropdown-menu {
+    border: none;
+}
+
+.container_dropdown {
+    width: 100vw;
+}
+
+.spaziatura_dropdown {
+    margin: 0 13px;
+}
+
+.dropdown, .dropend, .dropstart, .dropup {
+    position: static;
+}
+
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    left: 0px;
+    right: 0;
+    top: 72px;
 }
 
 /* jumbotron */
@@ -89,10 +106,18 @@
     color: black;
 }
 
+.btn_blue {
+    margin-top: 15px;
+}
+
 .btn-primary {
     border-radius: 20px;
     border: 0;
     padding:5px 10px 8px;
+}
+
+.spazio_ps5 {
+    margin-top: 30px;
 }
 
 
@@ -110,7 +135,7 @@
 #bg-gray {
     background-color: #373e4a;
     color: white;
-    padding: 20px 0;
+    padding: 60px 0;
 }
 
 /* meta-banner  */
@@ -146,15 +171,6 @@
 
 .img-ghost {
     display: none;
-}
-
-@media all and (min-width:768px){
-    .img-ghost{
-        display: block;
-    }
-    #logo_banner {
-        margin-top: 0;
-    }
 }
 
 .text_blu {
@@ -219,4 +235,23 @@ footer {
 
 .link_white {
     color: white;
+}
+
+
+@media all and (min-width: 992px){
+    .navbar-expand-lg .navbar_dx {
+        align-items: center;
+    }
+    .btn_black_white {
+        margin: 0px 15px;
+    }
+ }
+
+ @media all and (min-width:768px){
+    .img-ghost{
+        display: block;
+    }
+    #logo_banner {
+        margin-top: 0;
+    }
 }
