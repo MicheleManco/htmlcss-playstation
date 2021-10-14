@@ -17,10 +17,26 @@
     width: 120px;
     margin: 15px;
 }
+ @media all and (min-width: 992px){
+    .navbar-expand-lg .navbar_dx {
+        align-items: center;
+    }
+ }
+
+.btn_black_white{
+    background-color: black;
+    color: white;
+    padding-bottom: 20px;
+    margin: 0px 15px;
+}
+
+.bg_navbar_white {
+    background-color: white;
+}
 
 /* jumbotron */
 #jumbo {
-    margin-top: 160px;
+    margin-top: 127px;
     background-image: url(../img/jumbo-bg.png);
 }
 
@@ -59,9 +75,7 @@
 }
 
 .btn_orange {
-    border-radius: 20px;
     background-color: tomato;
-    border: 0;
     margin-top: 10px;
 }
 
@@ -78,8 +92,7 @@
 .btn-primary {
     border-radius: 20px;
     border: 0;
-    padding:5px 10px 5px;
-    margin-top: 10px;
+    padding:5px 10px 8px;
 }
 
 
@@ -111,11 +124,6 @@
     margin-top: 45px;
 }
 
-@media and all (min-width: 768){
-    #logo_banner {
-        margin-top: 0;
-    }
-}
 
 .btn_meta-banner{
     margin-top: 30px;
@@ -143,6 +151,9 @@
 @media all and (min-width:768px){
     .img-ghost{
         display: block;
+    }
+    #logo_banner {
+        margin-top: 0;
     }
 }
 
