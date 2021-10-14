@@ -9,6 +9,14 @@
     max-height: 100%;
 }
 
+body{
+    font-family: Arial;
+}
+
+nav {
+    font-family: Helvetica;
+}
+
 /* header */
 #background-black {
     background-color: black;
@@ -31,10 +39,6 @@
 
 .dropdown-menu {
     border: none;
-}
-
-.container_dropdown {
-    width: 100vw;
 }
 
 .spaziatura_dropdown {
@@ -133,7 +137,7 @@
 }
 
 #bg-gray {
-    background-color: #373e4a;
+    background-color: #0d0e0f;
     color: white;
     padding: 60px 0;
 }
