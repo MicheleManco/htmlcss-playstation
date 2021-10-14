@@ -26,11 +26,11 @@ nav {
     margin: 15px;
 }
 
-.btn_black_white{
+#btn_black_white{
     background-color: black;
     color: white;
-    padding-bottom: 20px;
-    margin-bottom: 3px;
+    padding:5px 90px 8px;
+    margin: 8px 0 5px;
 }
 
 .bg_navbar_white {
@@ -117,7 +117,7 @@ nav {
 .btn-primary {
     border-radius: 20px;
     border: 0;
-    padding:5px 10px 8px;
+    padding:5px 15px 8px;
 }
 
 .spazio_ps5 {
@@ -246,7 +246,10 @@ footer {
     .navbar-expand-lg .navbar_dx {
         align-items: center;
     }
-    .btn_black_white {
+
+    #btn_black_white{
+        padding:5px 15px 6px;
+        margin-bottom: 3px;
         margin: 0px 15px;
     }
  }
