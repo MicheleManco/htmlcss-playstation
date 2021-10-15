@@ -17,6 +17,10 @@ nav {
     font-family: Helvetica;
 }
 
+.sottotitoletto {
+    color: rgb(105, 105, 105);
+}
+
 /* header */
 #background-black {
     background-color: black;
