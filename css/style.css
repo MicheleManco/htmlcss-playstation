@@ -55,6 +55,12 @@ nav {
     top: 72px;
 }
 
+#lens_nav {
+    height: 40px;
+    border: 1px solid gray;
+    padding-right: 95%;
+}
+
 /* jumbotron */
 #jumbo {
     margin-top: 127px;
@@ -250,6 +256,12 @@ footer {
     #btn_black_white{
         padding:5px 15px 6px;
         margin: 0px 15px;
+    }
+
+    #lens_nav {
+        height: auto;
+        border: 0;
+        padding-right: 0;
     }
  }
 
